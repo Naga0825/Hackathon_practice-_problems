@@ -8,7 +8,7 @@ class DuplicateInArray{
                 if(arr[i]==arr[j])
                  count++;
             }
-            if(count==2)
+            if(count>1)
             System.out.println(arr[i]);
         }
     }
